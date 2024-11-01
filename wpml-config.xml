@@ -1,0 +1,25 @@
+<wpml-config>
+   <custom-types>
+        <custom-type translate="1">authorship</custom-type>
+    </custom-types> 
+    <custom-fields>
+        <custom-field action="ignore">_tasrpasids</custom-field>
+        <custom-field action="ignore">_saprsatids</custom-field>
+        <custom-field action="translate">_headline</custom-field>
+        <custom-field action="translate">_location</custom-field>
+        <custom-field action="translate">_birthyear</custom-field>
+        <custom-field action="translate">_email_link</custom-field>
+        <custom-field action="translate">_twitter_link</custom-field>
+        <custom-field action="translate">_facebook_link</custom-field>
+        <custom-field action="translate">_googleplus_link</custom-field>
+        <custom-field action="translate">_linkedin_link</custom-field>
+        <custom-field action="translate">_vimeo_link</custom-field>
+        <custom-field action="translate">_youtube_link</custom-field>
+        <custom-field action="translate">_soundcloud_link</custom-field>
+        <custom-field action="translate">_icompositions_link</custom-field>
+        <custom-field action="translate">_pinterest_link</custom-field>
+        <custom-field action="translate">_digg_link</custom-field>
+        <custom-field action="translate">_blog_link</custom-field>	
+        <custom-field action="translate">_web_url</custom-field>
+    </custom-fields>	
+</wpml-config>

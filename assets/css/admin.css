@@ -1,0 +1,30 @@
+/*
+#menu-posts-authorship .wp-menu-image {
+  background: none;
+  background-image: url(../images/authorship-icon.png);
+  background-position: 7px -132px !important;
+  background-repeat: no-repeat;
+}
+#menu-posts-authorship.wp-menu-open .wp-menu-image,
+#menu-posts-authorship:hover .wp-menu-image {
+  background-position: 7px -164px !important;
+}
+#icon-edit.icon32-posts-authorship {
+  background: transparent url(../images/authorship-icon.png) no-repeat 0 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2) {
+  #menu-posts-authorship .wp-menu-image {
+    background-image: url(../images/authorship-icon@x2.png);
+    background-size: 32px 187px;
+  }
+  #icon-edit.icon32-posts-authorship {
+    background-image: url(../images/authorship-icon@x2.png);
+    background-size: 32px 187px;
+  }
+}
+*/
+#menu-posts-authorship div.wp-menu-image:before {
+  /*font-family: WooCommerce !important;*/
+  content: "\f488" !important;
+  font-size: 1.3em !important;
+}

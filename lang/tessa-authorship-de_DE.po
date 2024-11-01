@@ -1,0 +1,1324 @@
+# http://takebarcelona.com
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: Tessa Authorship\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ulrich Hake <uli.hake@gmail.com>\n"
+"Language-Team: Uli Hake <info@takebarcelona.com>\n"
+"MIME-Version: 1.0\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+# <div class="response">
+# <div class="response-title"><?php _e( 'Your message has been sent!', 'tessa-authorship' ); ?></div>
+# <div class="response-sub"><?php echo esc_html( __( 'Thanks for contacting with ', 'tessa-authorship' ) . get_the_title($post->ID) ); ?></div>
+# wpml-name: ab1b3ab72838bad3626ed2890fd93e2f
+msgid "Your message has been sent!"
+msgstr "Ihre Nachricht wurde gesendet!"
+
+# <div class="errors errors-8" style="display: none;">
+# <?php _e( 'Please check your message. Moreover the recipient\'s email is not properly configured. You may comment this bellow to inform administration about this problem.', 'tessa-authorship' ); ?>
+# </div>
+# wpml-name: d553884f0951513a3115a38e10164174
+msgid "Please check your message. Moreover the recipient's email is not properly configured. You may comment this bellow to inform administration about this problem."
+msgstr "Bitte prüfen Sie Ihre Nachricht. Zudem scheint ein Fehler in der Empfängeremail zu bestehen. Sie können dies weiter unten als Kommentar einstellen, um die Administration auf das Problem aufmerksam zu machen."
+
+# <div class="errors errors-5" style="display: none;">
+# <?php _e( 'Recipient\'s email is not properly configured. You may comment this bellow to inform administration about this problem.', 'tessa-authorship' ); ?>
+# </div>
+# wpml-name: 4e3b4b0187cf7acf69afe2f509f36fcf
+msgid "Recipient's email is not properly configured. You may comment this bellow to inform administration about this problem."
+msgstr "Es besteht ein Problem mit der Empfangsemail. Sie können weiter unten wohlmöglich einen Kommentar hinterlassen, um die Administration darauf hinzuweisen."
+
+# <div class="errors errors-4" style="display: none;">
+# <?php _e( 'Please check your message.', 'tessa-authorship' ); ?>
+# </div>
+# wpml-name: 192234103b40be2932b202531c684a3f
+msgid "Please check your message."
+msgstr "Bitte prüfen Sie Ihre Nachricht."
+
+# <div class="errors errors-3" style="display: none;">
+# <?php _e( 'Sorry. You\'re not allowed to send messages.', 'tessa-authorship' ); ?>
+# </div>
+# wpml-name: e1ac8f2ebf3ce8380c20e67228f2dc50
+msgid "Sorry. You're not allowed to send messages."
+msgstr "Entschuldigung. Aber derzeit können keine Nachrichten gesendet werden."
+
+# <?php else : ?>
+# <?php _e( 'Something went wrong. Please try again.', 'tessa-authorship' ); ?>
+# <?php endif; ?>
+# wpml-name: e9f36d65b0491f99ef8f0ce2c11bf998
+msgid "Something went wrong. Please try again."
+msgstr "Da ist was schiefgelaufen. Versuchen Sie es bitte später noch einmal."
+
+# <?php if ( defined( 'RECAPTCHA_PRIVATE_KEY' ) ) : ?>
+# <?php _e( 'Something went wrong, could be the captcha. If you have difficulties request another captcha by using the topmost function icon next to the captcha input field. If you still encounter difficulties, please request help via the help button (?).', 'tessa-authorship' ); ?>
+# <?php else : ?>
+# wpml-name: e1dbf8450908c407632745e3a23a6928
+msgid "Something went wrong, could be the captcha. If you have difficulties request another captcha by using the topmost function icon next to the captcha input field. If you still encounter difficulties, please request help via the help button (?)."
+msgstr "Da ist etwas schief gegangen, könnte das Captcha sein. Sie können mit dem oberen Icon neben dem Eingabefeld ein neues Captcha anfordern, wenn Sie Schwierigkeiten haben, das aktuelle zu lesen. Wenn Sie weiterhin Schwierigkeiten haben, rufen Sie die Hilfe mit dem Fragezeichensymbol auf (?)."
+
+# <div class="errors errors-1" style="display: none;">
+# <?php _e( 'Post was not sent. Email not valid!', 'tessa-authorship' ); ?>
+# </div>
+# wpml-name: 51fa346814c3d311ab96a7643eee6c90
+msgid "Post was not sent. Email not valid!"
+msgstr "Nachricht wurde nicht gesendet. Die Email ist ungültig!"
+
+# <a href="#cancel" class="tas_cancel"><?php _e( 'Cancel', 'tessa-authorship' ); ?></a>
+# <input type="submit" value="<?php _e( 'Send Message', 'tessa-authorship' ); ?>" class="tas_send" />
+# </div>
+# wpml-name: 1432f32780bbd9cde496343b060fd75d
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+# <img style="float: right; display: none" class="loading" src="<?php echo plugin_dir_url( __FILE__ ) . 'assets/images/loading.gif'; ?>" alt="loading" width="16" height="16" />
+# <a href="#cancel" class="tas_cancel"><?php _e( 'Cancel', 'tessa-authorship' ); ?></a>
+# <input type="submit" value="<?php _e( 'Send Message', 'tessa-authorship' ); ?>" class="tas_send" />
+# wpml-name: ea4788705e6873b424c65e91c2846b19
+msgid "Cancel"
+msgstr "Abbrechen"
+
+# <br />
+# <label for="source_email"><?php _e( 'Your Email Address', 'tessa-authorship' ) ?></label>
+# <input type="text" name="source_email" id="source_email" value="" />
+# wpml-name: f775ad1fbb08939178d4df9c457601f2
+msgid "Your Email Address"
+msgstr "Ihre Emailadresse"
+
+# <?php else : ?>
+# <label for="source_name"><?php _e( 'Your Name', 'tessa-authorship' ) ?></label>
+# <input type="text" name="source_name" id="source_name" value="" />
+# wpml-name: 614cffa523202658a898e34a5d94d05e
+msgid "Your Name"
+msgstr "Ihr Name"
+
+# add_filter( 'wp_mail_content_type', 'tas_set_html_content_type' );
+# wp_mail( $data['target'], '['.__( 'Private Message for ', 'tessa-authorship' ).'] '. $data['post']->post_title, $content );
+# remove_filter( 'wp_mail_content_type', 'tas_set_html_content_type' );
+# wpml-name: a672c07553d7b21a9ce2591544a15746
+msgid "Private Message for "
+msgstr "Private Nachricht für "
+
+# $content .= '<hr />';
+# $content .= __('The message: ', 'tessa-authorship') . '<br />';
+# $content .= $data['message'];
+# wpml-name: e023b9f70fdf8c3fe87c62e09fd8067d
+msgid "The message: "
+msgstr "Die Nachricht:"
+
+# $content .= $data['post']->post_title."\n";
+# $content .= __('Your page: ', 'tessa-authorship') . get_permalink( $data['post']->ID )."\n";
+# $content .= '<hr />';
+# wpml-name: 4e368131e2dd24068352bf86849f0933
+msgid "Your page: "
+msgstr "Ihre Seite:"
+
+# <div class="response-title"><?php _e( 'Your message has been sent!', 'tessa-authorship' ); ?></div>
+# <div class="response-sub"><?php echo esc_html( __( 'Thanks for contacting with ', 'tessa-authorship' ) . get_the_title($post->ID) ); ?></div>
+# <div class="response-close"><a href="#" class="tas_cancel"><?php _e( 'Close', 'tessa-authorship' ); ?></a></div>
+# wpml-name: 37a86e84b43c89d036f6545ec497c06d
+msgid "Thanks for contacting with "
+msgstr "Danke für Ihre Kontaktaufnahme mit "
+
+#
+# <label for="target_message"><?php echo __( 'Your message for ', 'tessa-authorship' ) . ' <strong>' . get_the_title($post->ID) . '</strong>';  ?></label>
+# <textarea name="target_message" id="target_message" rows="5"></textarea>
+# wpml-name: 4de85560b57ef8141ae375f0ecf28490
+msgid "Your message for "
+msgstr "Ihre Nachricht für "
+
+# elseif ( is_email($post->email_link) && isset($tasrpas_options['show_email_form']) && $tasrpas_options['show_email_form'] ) :
+# $link_list[] = '<li class="'. $j['class'] . '">' . tessa_authorship_get_email_link( get_permalink( $post->ID ), '<span class="screen-reader-text">'. _x($j['name'], 'tessa-authorship') . '</span>', __( 'Click to send an email message', 'tessa-authorship' ), 'tas_message=email' ) . '</li><!--/.' . $i .'-->' . "\n";
+# endif;
+# wpml-name: 53fd030af9c6047af72ac3c3c23d5473
+msgid "Click to send an email message"
+msgstr "Drücken, wenn Sie eine Nachricht senden wollen"
+
+# else :
+# $post_object->image = '<span class="entry-format-badge-noauthorimg genericon"><span class="screen-reader-text">' . __('Generic author image', 'tessa-authorship') . '</span></span>';
+# endif;
+# wpml-name: 0d6dd973f0a8123dac86247543d4eb81
+msgid "Generic author image"
+msgstr ""
+
+# 'name' => __( 'URL', 'tessa-authorship' ),
+# 'description' => __( 'Enter a website (URL), e.g. http://takebarcelona.com/.', 'tessa-authorship' ),
+# 'title' => 'Visit on the web', //do not translate, will be __() on output
+# wpml-name: da73bf4ebbe7865006a9dcf607861a7b
+msgid "Enter a website (URL), e.g. http://takebarcelona.com/."
+msgstr ""
+
+# 'name' => __( 'Blog', 'tessa-authorship' ),
+# 'description' => __( 'Enter Blog url', 'tessa-authorship' ),
+# 'title' => 'Read on blog', //do not translate, will be __() on output
+# wpml-name: 1dba822c066aeee6c774926e26e8596d
+msgid "Enter Blog url"
+msgstr ""
+
+# 'name' => __( 'Digg', 'tessa-authorship' ),
+# 'description' => __( 'Enter Digg url', 'tessa-authorship' ),
+# 'title' => 'Digg on Digg', //do not translate, will be __() on output
+# wpml-name: 943a154d87c5994f457118e1bc080c72
+msgid "Enter Digg url"
+msgstr ""
+
+# 'name' => __( 'Pinterest', 'tessa-authorship' ),
+# 'description' => __( 'Enter Pinterest url', 'tessa-authorship' ),
+# 'title' => 'Find on Pinterest', //do not translate, will be __() on output
+# wpml-name: ef24aa9362580ce01b406e8f8f49d0f5
+msgid "Enter Pinterest url"
+msgstr ""
+
+# 'name' => __( 'iCompositions', 'tessa-authorship' ),
+# 'description' => __( 'Enter iCompositions url', 'tessa-authorship' ),
+# 'title' => 'Listen on iCompositions', //do not translate, will be __() on output
+# wpml-name: e94655a53088e82a3f03b24caf12b046
+msgid "Enter iCompositions url"
+msgstr ""
+
+# 'name' => __( 'Soundcloud', 'tessa-authorship' ),
+# 'description' => __( 'Enter Soundcloud url', 'tessa-authorship' ),
+# 'title' => 'Listen on Soundcloud', //do not translate, will be __() on output
+# wpml-name: 75d2c6a2d015c5e64c1f7819715396cc
+msgid "Enter Soundcloud url"
+msgstr ""
+
+# 'name' => __( 'Youtube', 'tessa-authorship' ),
+# 'description' => __( 'Enter Youtube url', 'tessa-authorship' ),
+# 'title' => 'Watch on YouTube', //do not translate, will be __() on output
+# wpml-name: e3df3e1b4dda1804819fa7282c2ca0b7
+msgid "Enter Youtube url"
+msgstr ""
+
+# 'name' => __( 'Vimeo', 'tessa-authorship' ),
+# 'description' => __( 'Enter Vimeo url', 'tessa-authorship' ),
+# 'title' => 'Watch on Vimeo', //do not translate, will be __() on output
+# wpml-name: 0ef923dbcb6374cbac898a1876268568
+msgid "Enter Vimeo url"
+msgstr ""
+
+# 'name' => __( 'LinkedIn', 'tessa-authorship' ),
+# 'description' => __( 'Enter LinkedIn url', 'tessa-authorship' ),
+# 'title' => 'Follow on LinkedIn', //do not translate, will be __() on output
+# wpml-name: 2eb7e8646e293d9c596999a37ecf71a5
+msgid "Enter LinkedIn url"
+msgstr ""
+
+# 'name' => __( 'Google+', 'tessa-authorship' ),
+# 'description' => __( 'Enter Google+ url', 'tessa-authorship' ),
+# 'title' => 'Follow on Google+', //do not translate, will be __() on output
+# wpml-name: b692eedd6e8eb15c79be971ad361c1e1
+msgid "Enter Google+ url"
+msgstr ""
+
+# 'name' => __( 'Facebook', 'tessa-authorship' ),
+# 'description' => __( 'Enter Facebook url', 'tessa-authorship' ),
+# 'title' => 'Follow on Facebook', //do not translate, will be __() on output
+# wpml-name: dfc2e158e98af501bceb60aef0532dd3
+msgid "Enter Facebook url"
+msgstr ""
+
+# 'name' => __( 'Twitter', 'tessa-authorship' ),
+# 'description' => __( 'Enter Twitter url', 'tessa-authorship' ),
+# 'title' => 'Follow on Twitter', //do not translate, will be __() on output
+# wpml-name: 13e90aa88383d670e2628878822f7515
+msgid "Enter Twitter url"
+msgstr ""
+
+# $fields['birthyear'] = array(
+# 'name' => __( 'Year of birth', 'tessa-authorship' ),
+# 'description' => __( "Enter year of birth for {$tas_single}.", 'tessa-authorship' ),
+# wpml-name: 11c4baa1b6173de4eced5a5d11b00daa
+msgid "Year of birth"
+msgstr "Geburtsjahr"
+
+# $fields['location'] = array(
+# 'name' => __( 'Location', 'tessa-authorship' ),
+# 'description' => __( "Enter a location for the current {$tas_single}.", 'tessa-authorship' ),
+# wpml-name: ce5bf551379459c1c61d2a204061c455
+msgid "Location"
+msgstr "Ort"
+
+# $tas_single, '<strong>' . date_i18n( __( 'M j, Y @ G:i' ), strtotime( $post->post_date ) ) . '</strong>', '<a target="_blank" href="' . esc_url( get_permalink($post_ID) ) . '">', '</a>' ),
+# 10 => sprintf( __( "%s draft updated. %sPreview %s", 'tessa-authorship' ), $tas_single, '<a target="_blank" href="' . esc_url( add_query_arg( 'preview', 'true', get_permalink( $post_ID ) ) ) . '">', '</a>' ),
+# );
+# wpml-name: 53eff36394b213045c52e55ca26c08e6
+msgid "%s draft updated. %sPreview %s"
+msgstr ""
+
+# 8 => sprintf( __( "%s submitted. %sPreview %s", 'tessa-authorship' ), $tas_single, '<a target="_blank" href="' . esc_url( add_query_arg( 'preview', 'true', get_permalink( $post_ID ) ) ) . '">', '</a>' ),
+# 9 => sprintf( __( "%s scheduled for: %s. %s Preview %s", 'tessa-authorship' ),
+# // translators: Publish box date format, see http://php.net/date
+# wpml-name: 1bc4920539448396658f40f2a02b1ca8
+msgid "%s scheduled for: %s. %s Preview %s"
+msgstr ""
+
+# 7 => __('Authorship saved.'),
+# 8 => sprintf( __( "%s submitted. %sPreview %s", 'tessa-authorship' ), $tas_single, '<a target="_blank" href="' . esc_url( add_query_arg( 'preview', 'true', get_permalink( $post_ID ) ) ) . '">', '</a>' ),
+# 9 => sprintf( __( "%s scheduled for: %s. %s Preview %s", 'tessa-authorship' ),
+# wpml-name: 23469a40b18405a377993531e6b579e2
+msgid "%s submitted. %sPreview %s"
+msgstr ""
+
+# 5 => isset($_GET['revision']) ? sprintf( __( "%s restored to revision from %s", 'tessa-authorship' ), $tas_single, wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
+# 6 => sprintf( __( "%s published. %sView %s", 'tessa-authorship' ), $tas_single, '<a href="' . esc_url( get_permalink( $post_ID ) ) . '">', '</a>' ),
+# 7 => __('Authorship saved.'),
+# wpml-name: 975901aed46468fa2a3037e751fd5718
+msgid "%s published. %sView %s"
+msgstr ""
+
+# /* translators: %s: date and time of the revision */
+# 5 => isset($_GET['revision']) ? sprintf( __( "%s restored to revision from %s", 'tessa-authorship' ), $tas_single, wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
+# 6 => sprintf( __( "%s published. %sView %s", 'tessa-authorship' ), $tas_single, '<a href="' . esc_url( get_permalink( $post_ID ) ) . '">', '</a>' ),
+# wpml-name: 3979af25062a66b79ac1f965746b7125
+msgid "%s restored to revision from %s"
+msgstr ""
+
+# 0 => '', // Unused. Messages start at index 1.
+# 1 => sprintf( __( "%s updated. %sView %s", "tessa-authorship" ), $tas_single, '<a href="' . esc_url( get_permalink( $post_ID ) ) . '">', '</a>' ),
+# 2 => __( 'Custom field updated.', 'tessa-authorship' ),
+# wpml-name: d887b82cd3bf67b4be1100b1ee066c5f
+msgid "%s updated. %sView %s"
+msgstr ""
+
+# <a href="javascript:void(0);" id="saprsat_delete_related_author" class="button-secondary hide-if-no-js"><?php _e( 'Clear all', 'tessa-authorship' ); ?></a>
+# <span class="hide-if-js"><?php _e( 'Add content IDs you want to relate, comma separated.', 'tessa-authorship' ); ?></span>
+# </div>
+# wpml-name: 2bf23d55c8f84aa3e2ef7591e6e3e1e1
+msgid "Add content IDs you want to relate, comma separated."
+msgstr "Geben Sie IDs für Dokumente ein, die Sie verknüpfen möchten."
+
+# <div>
+# <a href="javascript:void(0);" id="saprsat_open_button" class="button-secondary hide-if-no-js"><?php _e( 'Add a related content', 'tessa-authorship' ); ?></a>
+# <a href="javascript:void(0);" id="saprsat_delete_related_author" class="button-secondary hide-if-no-js"><?php _e( 'Clear all', 'tessa-authorship' ); ?></a>
+# wpml-name: e022173bd9310e455e65f9d7a54de029
+msgid "Add a related content"
+msgstr "Verknüpften Inhalt hinzufügen"
+
+# <div id="authorship" class="find-box" style="display:none;background-color:#ccc;;padding:10px 10px 10px 10px;border:1px solid #aaa;border-radius:5px">
+# <div id="authorship-head" class="authorship-box-head"><?php _e( 'Find related content', 'tessa-authorship' ); ?></div>
+# <div class="authorship-box-inside">
+# wpml-name: 2c1e095ae6dd45b8a105f45fb9eb91c1
+msgid "Find related content"
+msgstr "Verknüpfte Inhalte finden"
+
+# $tasrpas_options['show_email_form'] = isset( $tasrpas_options['show_email_form'] ) ? $tasrpas_options['show_email_form'] : 0;
+# echo '<label><input type="checkbox" '.checked( $tasrpas_options['show_email_form'] ? 'on' : '', 'on', false ).' name="tasrpas_settings[show_email_form]" value="1" /> '.__('Show Email Form', 'tessa-authorship').'</label><br /><br />';
+# else :
+# wpml-name: 5b4a853440fe9e830b08ba9bf05c49d0
+msgid "Show Email Form"
+msgstr "Emailnachrichtenformular zeigen"
+
+# echo '<input class="regular_text" size="25" maxlength="3" type="range" min="30" step="10" max="300" placeholder="'.esc_attr($rmt).'" value="'.esc_attr($stlh).'" name="tasrpas_settings[thumb_image_height]" id="tasrpas-thumb-image-height" onchange="document.getElementById(\'tih\').value = this.value;document.getElementById(\'tiw\').value = document.getElementById(tasrpas-thumb-image-width).value;" /><br />';
+# echo '<small>' . __("You can specify via the size parameter any string identifier for image sizes added to your theme via add_image_size or you can allow Tessa Authorship to set an image size for the identifier \"authorship-image-thumbnail\". Allowed value range: 30 to 300", "tessa-authorship") . '</small><br />'. __("Dimensions", "tessa-authorship") . ': <input id="tiw" type="text" disabled="disabled" value="' . esc_attr($stlw) . '"> x <input id="tih" type="text" disabled="disabled" value="' . esc_attr($stlh) . '"><br /><br />';
+#
+# wpml-name: f4843c1c797abf1a256c8802b6cd9f51
+msgid "Dimensions"
+msgstr "Bildgrösse"
+
+# echo '<input class="regular_text" size="25" maxlength="3" type="range" min="30" step="10" max="300" placeholder="'.esc_attr($rmt).'" value="'.esc_attr($stlh).'" name="tasrpas_settings[thumb_image_height]" id="tasrpas-thumb-image-height" onchange="document.getElementById(\'tih\').value = this.value;document.getElementById(\'tiw\').value = document.getElementById(tasrpas-thumb-image-width).value;" /><br />';
+# echo '<small>' . __("You can specify via the size parameter any string identifier for image sizes added to your theme via add_image_size or you can allow Tessa Authorship to set an image size for the identifier \"authorship-image-thumbnail\". Allowed value range: 30 to 300", "tessa-authorship") . '</small><br />'. __("Dimensions", "tessa-authorship") . ': <input id="tiw" type="text" disabled="disabled" value="' . esc_attr($stlw) . '"> x <input id="tih" type="text" disabled="disabled" value="' . esc_attr($stlh) . '"><br /><br />';
+#
+# wpml-name: 226bcc716755764d5b076bfbe67f925e
+msgid "You can specify via the size parameter any string identifier for image sizes added to your theme via add_image_size or you can allow Tessa Authorship to set an image size for the identifier \"authorship-image-thumbnail\". Allowed value range: 30 to 300"
+msgstr "Sie können in Ihrer WordPress-Vorlage Bildgrössen hinzufügen und diese über den Parameter \"size\" abrufen oder Sie legen hier die Bildabmessungen fest, die Tessa Authorship für \"authorship-image-thumbnail\" verwenden wird. Erlaubt sind Werte zwischen 30 und 300 (in Pixleln)."
+
+# endif;
+# echo '<label for="tasrpas-thumb-image-width">'.__('Default Thumbnail Image Dimension', 'tessa-authorship').'</label><br /><input class="regular_text" size="25" maxlength="3" type="range" min="30" step="10" max="300" placeholder="'.esc_attr($rmt).'" value="'.esc_attr($stlw).'" name="tasrpas_settings[thumb_image_width]" id="tasrpas-thumb-image-width"  onchange="document.getElementById(\'tiw\').value = this.value;document.getElementById(\'tih\').value = document.getElementById(tasrpas-thumb-image-height).value;"/> x';
+# $rmt = "50";
+# wpml-name: f4c5c96af8210750a46f42cb469dc9f2
+msgid "Default Thumbnail Image Dimension"
+msgstr "Grössenvorgabe für Referenz- (Thumbnail-)bilder"
+
+# echo '<label for="tasrpas-authorship-single-name">'.__('Single Title for Tessa Authorship', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" value="'.esc_attr($rmt).'" name="tasrpas_settings[authorship_single_name]" id="tasrpas-authorship-single-name" /><br />';
+# echo '<small>' . __("To use \"Tessa Authorship\" for other concepts and purposes you may want to redefine the single and plural slugs and the menu title. Defaults to <strong>authorship</strong>, <strong>authorships</strong> and <strong>Authorship</strong>. If you like to use \"Tessa Authorship\" to associate personal assistants to posts, pages and other content types, you would set in the three input fields <strong>assistant</strong>, <strong>assistants</strong> and <strong>Assistants</strong> for example.", 'tessa-authorship') . '</small><br /><br />';
+# echo "</div></fieldset>";
+# wpml-name: b716e56e0a27d5e9ea440eead7863502
+msgid "To use \"Tessa Authorship\" for other concepts and purposes you may want to redefine the single and plural slugs and the menu title. Defaults to <strong>authorship</strong>, <strong>authorships</strong> and <strong>Authorship</strong>. If you like to use \"Tessa Authorship\" to associate personal assistants to posts, pages and other content types, you would set in the three input fields <strong>assistant</strong>, <strong>assistants</strong> and <strong>Assistants</strong> for example."
+msgstr "Definieren Sie hier die \"slugs\" (Pfade) für Einzelbeiträge und Archivseiten wie auch den Menütitel in der Administration, um \"Tessa Authorship\" für andere Zwecke und Kontexte zu nutzen. Voreingestellt auf: <strong>authorship</strong>, <strong>authorships</strong> und <strong>Authorship</strong>. Wenn Sie \"Tessa Authorship\" bspw. für persönliche Assistenten verwenden wollen, würden Sie hier <strong>assistant</strong>, <strong>assistants</strong> und <strong>Assistants</strong> eingeben."
+
+# endif;
+# echo '<label for="tasrpas-authorship-single-name">'.__('Single Title for Tessa Authorship', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" value="'.esc_attr($rmt).'" name="tasrpas_settings[authorship_single_name]" id="tasrpas-authorship-single-name" /><br />';
+# echo '<small>' . __("To use \"Tessa Authorship\" for other concepts and purposes you may want to redefine the single and plural slugs and the menu title. Defaults to <strong>authorship</strong>, <strong>authorships</strong> and <strong>Authorship</strong>. If you like to use \"Tessa Authorship\" to associate personal assistants to posts, pages and other content types, you would set in the three input fields <strong>assistant</strong>, <strong>assistants</strong> and <strong>Assistants</strong> for example.", 'tessa-authorship') . '</small><br /><br />';
+# wpml-name: 2b56ffd59d5e4de7000fd1ba789c74b1
+msgid "Single Title for Tessa Authorship"
+msgstr "Titel für Einzelbeiträge des Typs Tessa Authorship"
+
+# endif;
+# echo '<label for="tasrpas-authorship-generic-name">'.__('Generic Title for Tessa Authorship', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" value="'.esc_attr($rmt).'" name="tasrpas_settings[authorship_generic_name]" id="tasrpas-authorship-generic-name" /><br />';
+# $rmt = "Author";
+# wpml-name: cc0508244bce51e4d27389da67422f65
+msgid "Generic Title for Tessa Authorship"
+msgstr "Übergeordneter Titel für Tessa Authorship"
+
+# endif;
+# echo '<label for="tasrpas-authorship-slug-plural">'.__('Slug for Tessa Authorship Archives', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" value="'.esc_attr($rmt).'" name="tasrpas_settings[authorship_slug_plural]" id="tasrpas-authorship-slug-plural" /><br />';
+# $rmt = "Authorship";
+# wpml-name: efb302330764239b39b9c6f7308aa40e
+msgid "Slug for Tessa Authorship Archives"
+msgstr "Slug für Tessa Authorship Archive"
+
+# endif;
+# echo '<label for="tasrpas-authorship-slug-single">'.__('Slug for Single Tessa Authorship Entries', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" value="'.esc_attr($rmt).'" name="tasrpas_settings[authorship_slug_single]" id="tasrpas-authorship-slug-single" /><br />';
+# $rmt = "authorships";
+# wpml-name: 6ab16d35820cfe168ec0c657a24de7c2
+msgid "Slug for Single Tessa Authorship Entries"
+msgstr "\"Slug\" (Pfad) für individuelle Tessa Authorship-Einträge"
+
+# echo '<label><input type="checkbox" '.checked( $tasrpas_options['content_filter'] ? 'on' : '', 'on', false ).' name="tasrpas_settings[content_filter]" value="1" /> '.__('Activate "the_content" filter to display authorships on posts and pages or related content (pages and posts) on author\'s page automatically. (single posts and pages only.', 'tessa-authorship').'</label><br /><br />';
+# echo "<fieldset style=\"border:1px solid #aaa;padding:10px;\"><legend style=\"margin-left:10px;\">" . __("Customize Authorship Post-Type Settings", "tessa-authorship") . "</legend><div>";
+# $rmt = "authorship";
+# wpml-name: 5e0f55b5ee1dc0971d00ab7ae8e9b592
+msgid "Customize Authorship Post-Type Settings"
+msgstr "Die Authorship-Post-Type-Einstellungen anpassen"
+
+# echo '<label><input type="checkbox" '.checked( $tasrpas_options['activate_mpt'] ? 'on' : '', 'on', false ).' name="tasrpas_settings[activate_mpt]" value="1" /> '.__('Activate Authorship Thumbnails on posts', 'tessa-authorship').'</label><br />';
+# echo '<small>' . __("We have not found the \"Multiple Post Thumbnails\" plugin. For this reason you can activate the bundled version. You can install and test the <a href=\"http://wordpress.org/plugins/multiple-post-thumbnails/stats/\" target=\"_blank\">original plugin</a> at any time. \"Tessa Authorship\" will detect its presence and fallback to the original version gracfully. \"Tessa Authorship\" will work without multiple thumbnails but offers more control to you on how related items show up in lists generated by \"Tessa Authorship\".", 'tessa-authorship') . '</small><br /><br />';
+# endif;
+# wpml-name: 47992c008b68d2b4c411c90a1599dd26
+msgid "We have not found the \"Multiple Post Thumbnails\" plugin. For this reason you can activate the bundled version. You can install and test the <a href=\"http://wordpress.org/plugins/multiple-post-thumbnails/stats/\" target=\"_blank\">original plugin</a> at any time. \"Tessa Authorship\" will detect its presence and fallback to the original version gracfully. \"Tessa Authorship\" will work without multiple thumbnails but offers more control to you on how related items show up in lists generated by \"Tessa Authorship\"."
+msgstr ""
+
+# endif;
+# add_meta_box( 'tessa-authorship', __('Authorship Related Content', 'tessa-authorship'), array($this, 'saprsat_box'), 'authorship', 'side' );
+#
+# wpml-name: 531c3f1ae6219a200cf0640b275657aa
+msgid "Authorship Related Content"
+msgstr "Verknüpfte Inhalte für Authorship"
+
+# $fields['email_link'] = array(
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# wpml-name: 5d4b8cec02cb35eee8882364200fb41a
+msgid "E-mail Address"
+msgstr "Email-Adresse"
+
+# $fields['email_link'] = array(
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# wpml-name: 0b0021fdb7822ca53f187e6135937fe2
+msgid "Enter a headline for the current author."
+msgstr "Geben Sie ein Motto, eine Devise für den Autor ein."
+
+# $fields['headline'] = array(
+# 'name' => __( 'Headline', 'tessa-authorship' ),
+# 'description' => __( "Enter a headline for the current {$tas_single}.", 'tessa-authorship' ),
+# wpml-name: c6568e77f61109390e82d035aaacaef0
+msgid "Headline"
+msgstr "Motto"
+
+# $fields['headline'] = array(
+# 'name' => __( 'Headline', 'tessa-authorship' ),
+# 'description' => __( "Enter a headline for the current {$tas_single}.", 'tessa-authorship' ),
+# wpml-name: 09ace5776774eabbae721fec2ac8b996
+msgid "Authorship Post Image"
+msgstr "Bild für die Autorreferenz"
+
+# $args = array(
+# 'label' => __('Authorship Author Image', 'tessa-authorship'),
+# 'id' => 'tas',
+# wpml-name: 275c6c4e91469a4305f04de09000c955
+msgid "Authorship Author Image"
+msgstr "Bild des Autors"
+
+# </p>
+# <p><small><?php _e( 'Display specific authors or entries. You may specify more than one id separated by comma, e.g. 22,26,201', 'tessa-authorship' ); ?></small></p>
+# <!-- Widget Post types: Text Input -->
+# wpml-name: 746da4b62298abd46ea9bc5ea5eeb417
+msgid "Display specific authors or entries. You may specify more than one id separated by comma, e.g. 22,26,201"
+msgstr "Auf bestimmte Autoren oder Beiträge beschränken. Sie können mehr als eine Dokument-Id angeben. Beispiel: 22,26,201"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'specific_id' ); ?>"><?php _e( 'Specific IDs (optional):', 'tessa-authorship' ); ?></label>
+# <input type="text" name="<?php echo $this->get_field_name( 'specific_id' ); ?>"  value="<?php echo $instance['specific_id']; ?>" class="widefat" id="<?php echo $this->get_field_id( 'specific_id' ); ?>" />
+# wpml-name: 5397f4b79058cdfd22c722a40e266fa0
+msgid "Specific IDs (optional):"
+msgstr "Ausgewählte IDs (optional):"
+
+# <input id="<?php echo $this->get_field_id( 'display_auto' ); ?>" name="<?php echo $this->get_field_name( 'display_auto' ); ?>" type="checkbox"<?php checked( $instance['display_auto'], 1 ); ?> />
+# <label for="<?php echo $this->get_field_id( 'display_auto' ); ?>"><?php _e( 'Related according to context', 'tessa-authorship' ); ?></label>
+# </p>
+# wpml-name: 4bd22e8722bda2a1e3f44bb8681537d4
+msgid "Related according to context"
+msgstr "Verknüpft gemäss Kontext"
+
+# endif;
+# echo '<label for="tasrpas-entry-intro">'.__('Related Content Intro', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" placeholder="'.esc_attr($rmt).'" value="'.esc_attr($stl).'" name="tasrpas_settings[entry_intro]" id="tasrpas-entry-intro" /><br /><br />';
+#
+# wpml-name: 05f0aaff0b7916b1eae3ca8eaaf933ee
+msgid "Related Content Intro"
+msgstr "Vorspann für verknüpften Inhalt"
+
+# endif;
+# echo '<label for="tasrpas-author-intro">'.__('Related Author Intro', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" placeholder="'.esc_attr($rmt).'" value="'.esc_attr($stl).'" name="tasrpas_settings[author_intro]" id="tasrpas-author-intro" /><br /><br />';
+# $rmt = "Authorship";
+# wpml-name: eab18dc6e6a28eb0bf2cd2d12acd0a86
+msgid "Related Author Intro"
+msgstr "Vorspann für verknüpfte Autoren"
+
+# endif;
+# echo '<label for="tasrpas-social-link-intro">'.__('Social Link Intro', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" placeholder="'.esc_attr($rmt).'" value="'.esc_attr($stl).'" name="tasrpas_settings[social_link_intro]" id="tasrpas-social-link-intro" /><br /><br />';
+# $rmt = "Author";
+# wpml-name: 02b06333f14fabb617ab36ceb0f44247
+msgid "Social Link Intro"
+msgstr "Abschnittstitel für Profillinks"
+
+# $tasrpas_options['pub_email_link'] = isset( $tasrpas_options['pub_email_link'] ) ? $tasrpas_options['pub_email_link'] : 0;
+# echo '<label><input type="checkbox" '.checked( $tasrpas_options['pub_email_link'] ? 'on' : '', 'on', false ).' name="tasrpas_settings[pub_email_link]" value="1" /> '.__('Publish Author\'s Email', 'tessa-authorship').'</label><br />';
+#
+# wpml-name: cd22a820a7c7a9c9ec7cdda4df91d456
+msgid "Publish Author's Email"
+msgstr "Email des Autors publizieren"
+
+# $tasrpas_options['open_link_blank'] = isset( $tasrpas_options['open_link_blank'] ) ? $tasrpas_options['open_link_blank'] : 0;
+# echo '<label><input type="checkbox" '.checked( $tasrpas_options['open_link_blank'] ? 'on' : '', 'on', false ).' name="tasrpas_settings[open_link_blank]" value="1" /> '.__('Open Social Links in new Window', 'tessa-authorship').'</label><br />';
+#
+# wpml-name: 99cb80b9902ef487cfab7000b36d1b76
+msgid "Open Social Links in new Window"
+msgstr "Links des Profils in neuem Fenster öffnen"
+
+# //@TODO: allow a bit of comfort
+# echo '<label for="tasrpas-placeholders-entry">'.__('Order placeholders for related entries on author\'s page', 'tessa-authorship').'</label><br /><input size="60" class="regular_text" type="text" value="'.esc_attr(implode(',',$pe)).'" name="tasrpas_settings[placeholders_entry]" id="tasrpas-placeholders-entry" /><br />';
+# echo '<small>' . sprintf(__("Please use only the following placeholders: <strong>%s</strong> and use comma as separator.", "tessa-authorship"), implode(',', $tmp)) . '</small><br /><br />';
+# wpml-name: ee8fb33aa6957ebeb86a782d26545c8b
+msgid "Order placeholders for related entries on author's page"
+msgstr "Platzhalter für verknüpfte Inhalte auf der Autorenseite anordnen"
+
+# echo '<label for="tasrpas-placeholders-entry">'.__('Order placeholders for related entries on author\'s page', 'tessa-authorship').'</label><br /><input size="60" class="regular_text" type="text" value="'.esc_attr(implode(',',$pe)).'" name="tasrpas_settings[placeholders_entry]" id="tasrpas-placeholders-entry" /><br />';
+# echo '<small>' . sprintf(__("Please use only the following placeholders: <strong>%s</strong> and use comma as separator.", "tessa-authorship"), implode(',', $tmp)) . '</small><br /><br />';
+# /* not clean disable
+# wpml-name: bc7d1bfb5772aa4a7da1eec95069002a
+msgid "Please use only the following placeholders: <strong>%s</strong> and use comma as separator."
+msgstr "Bitte benutzen Sie die folgenden Platzhalter: <strong>%s</strong> und benutzen Sie das Komma als Trennzeichen."
+
+# //@TODO: allow a bit of comfort
+# echo '<label for="tasrpas-placeholders-author">'.__('Order placeholders for related authors on entries', 'tessa-authorship').'</label><br /><input size="60" class="regular_text" type="text" value="'.esc_attr(implode(',',$pa)).'" name="tasrpas_settings[placeholders_author]" id="tasrpas-placeholders-author" /><br />';
+# echo '<small>' . sprintf(__("Please use only the following placeholders: <strong>%s</strong> and use comma as separator.", "tessa-authorship"), implode(',', $tmp)) . '</small><br /><br />';
+# wpml-name: 73375e12b4b8398a3ef3cc6c07ca28e4
+msgid "Order placeholders for related authors on entries"
+msgstr "Platzhalter für verknüpfte Autoren auf Beitragsseiten anordnen"
+
+# endif;
+# echo '<label for="tasrpas-read-more">'.__('Read more link text', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" value="'.esc_attr($rmt).'" name="tasrpas_settings[read_more]" id="tasrpas-read-more" /><br /><br />';
+#
+# wpml-name: 76079e3aa98544af20daf78bba83740c
+msgid "Read more link text"
+msgstr "Text für den Link Weiterlesen"
+
+# endif;
+# echo '<label for="tasrpas-read-more">'.__('Read more link text', 'tessa-authorship').'</label><br /><input class="regular_text" size="60" type="text" value="'.esc_attr($rmt).'" name="tasrpas_settings[read_more]" id="tasrpas-read-more" /><br /><br />';
+#
+# wpml-name: b60453d08ad244d449e86fd33e700d0b
+msgid "We have not found the \"Multiple Post Thumbnails\" plugin. For this reason you can activate the bundled version. You can install and test the <a href=\"http://wordpress.org/plugins/multiple-post-thumbnails/stats/\" target=\"_blank\">original plugin</a> at any time. \"Tessa Authorship\" will detect its presence and fallback to the original version gracfully. \"Tessa Authorship\" will work without multiple thumbnails but offers more control to you on how related items show up in list generated by \"Tessa Authorship\"."
+msgstr "Wir haben das \"Multiple Post Thumbnails\" plugin nicht gefunden. Deshalb können Sie die beigepackte Version aktivieren. Gleichwohl können Sie die <a href=\"http://wordpress.org/plugins/multiple-post-thumbnails/stats/\" target=\"_blank\">Originalversion</a> jederzeit installieren und testen. \"Tessa Authorship\" erkennt dies automatisch und wird dann selbstverständlich die installierte Version des plugins verwenden. \"Tessa Authorship\" arbeitet ohne dieses Plugin wie auch ohne die beigepackte Version, allerdings erhalten Sie mehr Kontrolle über das Erscheinen der verknüpften Beiträge in den durch \"Tessa Authorship\" erstellten Listen."
+
+# $tasrpas_options['activate_mpt'] = isset( $tasrpas_options['activate_mpt'] ) ? $tasrpas_options['activate_mpt'] : 0;
+# echo '<label><input type="checkbox" '.checked( $tasrpas_options['activate_mpt'] ? 'on' : '', 'on', false ).' name="tasrpas_settings[activate_mpt]" value="1" /> '.__('Activate Authorship Thumbnails on posts', 'tessa-authorship').'</label><br />';
+# echo '<small>' . __("We have not found the \"Multiple Post Thumbnails\" plugin. For this reason you can activate the bundled version. You can install and test the <a href=\"http://wordpress.org/plugins/multiple-post-thumbnails/stats/\" target=\"_blank\">original plugin</a> at any time. \"Tessa Authorship\" will detect its presence and fallback to the original version gracfully. \"Tessa Authorship\" will work without multiple thumbnails but offers more control to you on how related items show up in lists generated by \"Tessa Authorship\".", 'tessa-authorship') . '</small><br /><br />';
+# wpml-name: 2e8e7bf069956f951fc2fbc9764380a6
+msgid "Activate Authorship Thumbnails on posts"
+msgstr "Authorship Thumbnail für Beiträge aktivieren"
+
+# $tasrpas_options['content_filter'] = isset( $tasrpas_options['content_filter'] ) ? $tasrpas_options['content_filter'] : 0;
+# echo '<label><input type="checkbox" '.checked( $tasrpas_options['content_filter'] ? 'on' : '', 'on', false ).' name="tasrpas_settings[content_filter]" value="1" /> '.__('Activate "the_content" filter to display authorships on posts and pages or related content (pages and posts) on author\'s page automatically. (single posts and pages only.', 'tessa-authorship').'</label><br /><br />';
+# echo "<fieldset style=\"border:1px solid #aaa;padding:10px;\"><legend style=\"margin-left:10px;\">" . __("Customize Authorship Post-Type Settings", "tessa-authorship") . "</legend><div>";
+# wpml-name: c61dc556a72e3ddab707f84702928674
+msgid "Activate \"the_content\" filter to display authorships on posts and pages or related content (pages and posts) on author's page automatically. (single posts and pages only."
+msgstr "Aktivieren Sie den Filter \"the_content\", um Verknüpfungen mit Einträgen und Seiten automatisch anzuzeigen oder um auf der Autorenseite verantwortete Beiträge und Seiten anzuzeigen. (Einzig gültig für Einträge und Seiten, nicht für Startseite, etc.)"
+
+# add_settings_section( 'tasrpas_settings_page', __( 'Template Operations', 'tessa-authorship' ), array($this, 'tasrpas_validate_options'), 'tasrpas_settings_templates' );
+# add_settings_field( 'tasrpas_field_templates', __( 'Define output fields and order', 'tessa-authorship' ), array($this, 'tasrpas_templates'), 'tasrpas_settings_templates', 'tasrpas_settings_page' );
+#
+# wpml-name: 50232254f74009a4c79c490540a7b886
+msgid "Define output fields and order"
+msgstr "Wählen Sie die Platzhalter und deren Anordnung"
+
+#
+# add_settings_section( 'tasrpas_settings_page', __( 'Template Operations', 'tessa-authorship' ), array($this, 'tasrpas_validate_options'), 'tasrpas_settings_templates' );
+# add_settings_field( 'tasrpas_field_templates', __( 'Define output fields and order', 'tessa-authorship' ), array($this, 'tasrpas_templates'), 'tasrpas_settings_templates', 'tasrpas_settings_page' );
+# wpml-name: 7019b1c17ded649f3c725fd8989a1504
+msgid "Template Operations"
+msgstr "Vorlageneinstellung"
+
+# add_settings_section( 'tasrpas_settings_page', __( 'Basic Configuration', 'tessa-authorship' ), array($this, 'tasrpas_validate_options'), 'tasrpas_settings' );
+# add_settings_field( 'tasrpas_field_post_types', __( 'Enable authorship for the following post-types', 'tessa-authorship' ), array($this, 'tasrpas_post_types'), 'tasrpas_settings', 'tasrpas_settings_page' );
+#
+# wpml-name: f6b985f3c65eb04bf7ccda12edfb13c8
+msgid "Enable authorship for the following post-types"
+msgstr "Autorenschaft (Urheberschaft) für die folgenden Beitragstypen ermöglichen"
+
+# $tasrpas_options = get_option('tasrpas_settings');
+# add_settings_section( 'tasrpas_settings_page', __( 'Basic Configuration', 'tessa-authorship' ), array($this, 'tasrpas_validate_options'), 'tasrpas_settings' );
+# add_settings_field( 'tasrpas_field_post_types', __( 'Enable authorship for the following post-types', 'tessa-authorship' ), array($this, 'tasrpas_post_types'), 'tasrpas_settings', 'tasrpas_settings_page' );
+# wpml-name: 263485bdc392a068c22db476bfb5d0f2
+msgid "Basic Configuration"
+msgstr "Grundeinstellungen"
+
+# $format_string = '<p class="hide-if-no-js"><a href="#" id="remove-%1$s-%2$s-thumbnail" onclick="MultiPostThumbnails.removeThumbnail(\'%2$s\', \'%1$s\', \'%4$s\');return false;">%3$s</a></p>';
+# $content .= sprintf( $format_string, $this->post_type, $this->id, sprintf( esc_html__( "Remove %s", 'multiple-post-thumbnails' ), $this->label ), $ajax_nonce );
+# }
+# wpml-name: 39a33ab3ae10c15b5c60328b23512713
+msgid "Remove %s"
+msgstr "%s entfernen"
+
+# $set_thumbnail_link = sprintf( $format_string, sprintf( esc_attr__( "Set %s" , 'multiple-post-thumbnails' ), $this->label ), $image_library_url, $this->post_type, $this->id, $url_class, $this->label, $thumbnail_id );
+# $content = sprintf( $set_thumbnail_link, sprintf( esc_html__( "Set %s", 'multiple-post-thumbnails' ), $this->label ) );
+#
+# wpml-name: 6eb74b3166f8ff0d848e54e92ef93eac
+msgid "Set %s"
+msgstr " %s festlegen"
+
+# $ajax_nonce = wp_create_nonce("set_post_thumbnail-{$this->post_type}-{$this->id}-{$calling_post_id}");
+# $link = sprintf('<a id="%4$s-%1$s-thumbnail-%2$s" class="%1$s-thumbnail" href="#" onclick="MultiPostThumbnails.setAsThumbnail(\'%2$s\', \'%1$s\', \'%4$s\', \'%5$s\');return false;">' . __( 'Set as %3$s', 'multiple-post-thumbnails' ) . '</a>', $this->id, $post->ID, $this->label, $this->post_type, $ajax_nonce);
+# $form_fields["{$this->post_type}-{$this->id}-thumbnail"] = array(
+# wpml-name: c239a4d390af1f71cc153063036b39a6
+msgid "Set as %3$s"
+msgstr "Als %3$s setzen"
+
+# if (WP_DEBUG) {
+# trigger_error(sprintf(__("The 'label' and 'id' values of the 'args' parameter of '%s::%s()' are required", 'multiple-post-thumbnails'), __CLASS__, __FUNCTION__));
+# }
+# wpml-name: c413ba1cf4b67f842335d842a4475a9e
+msgid "The 'label' and 'id' values of the 'args' parameter of '%s::%s()' are required"
+msgstr "Angaben für 'label' und 'id' als Parameter in 'args' sind zwingend für '%s::%s()'"
+
+# $html .= '<a href="#" class="btn-prev">' . apply_filters( 'tessa_authorship_prev_btn', '&larr; ' . __( 'Previous', 'tessa-authorship' ) ) . '</a>' . "\n";
+# $html .= '<a href="#" class="btn-next">' . apply_filters( 'tessa_authorship_next_btn', __( 'Next', 'tessa-authorship' ) . ' &rarr;' ) . '</a>' . "\n";
+# $html .= '</div><!--/.pagination-->' . "\n";
+# wpml-name: 10ac3d04253ef7e1ddc73e6091c0cd55
+msgid "Next"
+msgstr "Nächster"
+
+# $html .= '<div class="pagination">' . "\n";
+# $html .= '<a href="#" class="btn-prev">' . apply_filters( 'tessa_authorship_prev_btn', '&larr; ' . __( 'Previous', 'tessa-authorship' ) ) . '</a>' . "\n";
+# $html .= '<a href="#" class="btn-next">' . apply_filters( 'tessa_authorship_next_btn', __( 'Next', 'tessa-authorship' ) . ' &rarr;' ) . '</a>' . "\n";
+# wpml-name: dd1f775e443ff3b9a89270713580a51b
+msgid "Previous"
+msgstr "Vorheriger"
+
+# $html .= '<div class="pagination">' . "\n";
+# $html .= '<a href="#" class="btn-prev">' . apply_filters( 'tessa_authorship_prev_btn', '&larr; ' . __( 'Previous', 'tessa-authorship' ) ) . '</a>' . "\n";
+# $html .= '<a href="#" class="btn-next">' . apply_filters( 'tessa_authorship_next_btn', __( 'Next', 'tessa-authorship' ) . ' &rarr;' ) . '</a>' . "\n";
+# wpml-name: single post url slug: authorship
+msgid "authorship"
+msgstr "authorship"
+
+# $html .= '<div class="pagination">' . "\n";
+# $html .= '<a href="#" class="btn-prev">' . apply_filters( 'tessa_authorship_prev_btn', '&larr; ' . __( 'Previous', 'tessa-authorship' ) ) . '</a>' . "\n";
+# $html .= '<a href="#" class="btn-next">' . apply_filters( 'tessa_authorship_next_btn', __( 'Next', 'tessa-authorship' ) . ' &rarr;' ) . '</a>' . "\n";
+# wpml-name: authorship: Add New
+msgid "Add New"
+msgstr "Neuer Autor"
+
+# $html .= '<div class="pagination">' . "\n";
+# $html .= '<a href="#" class="btn-prev">' . apply_filters( 'tessa_authorship_prev_btn', '&larr; ' . __( 'Previous', 'tessa-authorship' ) ) . '</a>' . "\n";
+# $html .= '<a href="#" class="btn-next">' . apply_filters( 'tessa_authorship_next_btn', __( 'Next', 'tessa-authorship' ) . ' &rarr;' ) . '</a>' . "\n";
+# wpml-name: c4eda77ede2f46896331070e7ded7c4d
+msgid "Enter a URL that applies to this authorship (for example: http://takebarcelona.com/)."
+msgstr "Geben Sie eine Webseite (URL) für diesen Autor an, zum Beispiel: http://takebarcelona.com/"
+
+# $fields['web_url'] = array(
+# 'name' => __( 'URL', 'tessa-authorship' ),
+# 'description' => __( 'Enter a website (URL), e.g. http://takebarcelona.com/.', 'tessa-authorship' ),
+# wpml-name: e6b391a8d2c4d45902a23a8b6585703d
+msgid "URL"
+msgstr "URL"
+
+# $fields['web_url'] = array(
+# 'name' => __( 'URL', 'tessa-authorship' ),
+# 'description' => __( 'Enter a website (URL), e.g. http://takebarcelona.com/.', 'tessa-authorship' ),
+# wpml-name: 8d5c0715f2a0cd6137bf8a21dc7822e6
+msgid "Enter a byline for the current authorship data."
+msgstr "Quellenangabe oder Zitat für den aktuellen Autor."
+
+# $fields['web_url'] = array(
+# 'name' => __( 'URL', 'tessa-authorship' ),
+# 'description' => __( 'Enter a website (URL), e.g. http://takebarcelona.com/.', 'tessa-authorship' ),
+# wpml-name: 6c24eb30f73bd445b40a1e89334d3a45
+msgid "Byline"
+msgstr "Quellenangabe"
+
+# $fields['web_url'] = array(
+# 'name' => __( 'URL', 'tessa-authorship' ),
+# 'description' => __( 'Enter a website (URL), e.g. http://takebarcelona.com/.', 'tessa-authorship' ),
+# wpml-name: 560c47442ea4a8aafe76d9db57bde297
+msgid "Enter Blog url for the author"
+msgstr "Geben Sie eine Blogurl für den aktuellen Autor an"
+
+# $fields['blog_link'] = array(
+# 'name' => __( 'Blog', 'tessa-authorship' ),
+# 'description' => __( 'Enter Blog url', 'tessa-authorship' ),
+# wpml-name: be8df1f28c0abc85a0ed0c6860e5d832
+msgid "Blog"
+msgstr "Blog"
+
+# $fields['blog_link'] = array(
+# 'name' => __( 'Blog', 'tessa-authorship' ),
+# 'description' => __( 'Enter Blog url', 'tessa-authorship' ),
+# wpml-name: c49762b9e5f0f758f6e1f2e7d484cb5a
+msgid "Enter Digg url for the author"
+msgstr "Geben Sie die Digg-Url für den Autor an"
+
+# $fields['digg_link'] = array(
+# 'name' => __( 'Digg', 'tessa-authorship' ),
+# 'description' => __( 'Enter Digg url', 'tessa-authorship' ),
+# wpml-name: 9c393f1c3d00f6f6ab7f2f393508cf5d
+msgid "Digg"
+msgstr "Digg"
+
+# $fields['digg_link'] = array(
+# 'name' => __( 'Digg', 'tessa-authorship' ),
+# 'description' => __( 'Enter Digg url', 'tessa-authorship' ),
+# wpml-name: 8cc6eee9a770e06e17fc3cdef8df771f
+msgid "Enter Pinterest url for the author"
+msgstr "Geben Sie den Pinterest-Link für den Autor an"
+
+# $fields['pinterest_link'] = array(
+# 'name' => __( 'Pinterest', 'tessa-authorship' ),
+# 'description' => __( 'Enter Pinterest url', 'tessa-authorship' ),
+# wpml-name: 86709a608bd914b28221164e6680ebf7
+msgid "Pinterest"
+msgstr "Pinterest"
+
+# $fields['pinterest_link'] = array(
+# 'name' => __( 'Pinterest', 'tessa-authorship' ),
+# 'description' => __( 'Enter Pinterest url', 'tessa-authorship' ),
+# wpml-name: 78959b5f1363c1d425a4d1cc53502dc5
+msgid "Enter iCompositions url for the author"
+msgstr "Geben Sie den iCompositions-Link für den Autor an"
+
+# $fields['icompositions_link'] = array(
+# 'name' => __( 'iCompositions', 'tessa-authorship' ),
+# 'description' => __( 'Enter iCompositions url', 'tessa-authorship' ),
+# wpml-name: ff4909e6aa3050e61e59e70a1c3576d8
+msgid "iCompositions"
+msgstr "iCompositions"
+
+# $fields['icompositions_link'] = array(
+# 'name' => __( 'iCompositions', 'tessa-authorship' ),
+# 'description' => __( 'Enter iCompositions url', 'tessa-authorship' ),
+# wpml-name: 03b77b1b76196590513736a03812df53
+msgid "Enter Soundcloud url for the author"
+msgstr "Geben Sie den Soundcloud-Link für den Autor ein"
+
+# $fields['soundcloud_link'] = array(
+# 'name' => __( 'Soundcloud', 'tessa-authorship' ),
+# 'description' => __( 'Enter Soundcloud url', 'tessa-authorship' ),
+# wpml-name: 32bc364adf357b99b977ac0dd3fc94d3
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+# $fields['soundcloud_link'] = array(
+# 'name' => __( 'Soundcloud', 'tessa-authorship' ),
+# 'description' => __( 'Enter Soundcloud url', 'tessa-authorship' ),
+# wpml-name: 1d22c0e2bb14eb8c0425932378f3fb07
+msgid "Enter Youtube url for the author"
+msgstr "Geben Sie den YouTube-Link für den Autor ein"
+
+# $fields['youtube_link'] = array(
+# 'name' => __( 'Youtube', 'tessa-authorship' ),
+# 'description' => __( 'Enter Youtube url', 'tessa-authorship' ),
+# wpml-name: 970cfba66b8380fb97b742e4571356c6
+msgid "Youtube"
+msgstr "Youtube"
+
+# $fields['youtube_link'] = array(
+# 'name' => __( 'Youtube', 'tessa-authorship' ),
+# 'description' => __( 'Enter Youtube url', 'tessa-authorship' ),
+# wpml-name: 0960dabbf73ef5a65ed4136910635c63
+msgid "Enter Vimeo url for the author"
+msgstr "Geben Sie den Vimeo-Link des Autors ein"
+
+# $fields['vimeo_link'] = array(
+# 'name' => __( 'Vimeo', 'tessa-authorship' ),
+# 'description' => __( 'Enter Vimeo url', 'tessa-authorship' ),
+# wpml-name: 15db599e0119be476d71bfc1fda72217
+msgid "Vimeo"
+msgstr "Vimeo"
+
+# $fields['vimeo_link'] = array(
+# 'name' => __( 'Vimeo', 'tessa-authorship' ),
+# 'description' => __( 'Enter Vimeo url', 'tessa-authorship' ),
+# wpml-name: cbcd1227a3af15d6855392c3281612f6
+msgid "Enter LinkedIn url for the author"
+msgstr "Geben Sie den LinkedIn-Link des Autors ein"
+
+# $fields['linkedin_link'] = array(
+# 'name' => __( 'LinkedIn', 'tessa-authorship' ),
+# 'description' => __( 'Enter LinkedIn url', 'tessa-authorship' ),
+# wpml-name: e884c507c5198a4578a84498f7a323e2
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+# $fields['linkedin_link'] = array(
+# 'name' => __( 'LinkedIn', 'tessa-authorship' ),
+# 'description' => __( 'Enter LinkedIn url', 'tessa-authorship' ),
+# wpml-name: f326fe35db1e6499249b93c4bee06bb7
+msgid "Enter Google+ url for the author"
+msgstr "Geben Sie den Google+-Link des Autors ein"
+
+# $fields['googleplus_link'] = array(
+# 'name' => __( 'Google+', 'tessa-authorship' ),
+# 'description' => __( 'Enter Google+ url', 'tessa-authorship' ),
+# wpml-name: 5b2c8bfd1bc974966209b7be1cb51a72
+msgid "Google+"
+msgstr "Google+"
+
+# $fields['googleplus_link'] = array(
+# 'name' => __( 'Google+', 'tessa-authorship' ),
+# 'description' => __( 'Enter Google+ url', 'tessa-authorship' ),
+# wpml-name: 00f00a669a999622ca303baca816a281
+msgid "Enter Facebook url for the author"
+msgstr "Geben Sie den Facebook-Link des Autors ein"
+
+# $fields['facebook_link'] = array(
+# 'name' => __( 'Facebook', 'tessa-authorship' ),
+# 'description' => __( 'Enter Facebook url', 'tessa-authorship' ),
+# wpml-name: d85544fce402c7a2a96a48078edaf203
+msgid "Facebook"
+msgstr "Facebook"
+
+# $fields['facebook_link'] = array(
+# 'name' => __( 'Facebook', 'tessa-authorship' ),
+# 'description' => __( 'Enter Facebook url', 'tessa-authorship' ),
+# wpml-name: f721213c1241f7a1513eb30ab67cd5a6
+msgid "Enter Twitter url for the author"
+msgstr "Geben Sie den Twitter-Link des Autors ein"
+
+# $fields['twitter_link'] = array(
+# 'name' => __( 'Twitter', 'tessa-authorship' ),
+# 'description' => __( 'Enter Twitter url', 'tessa-authorship' ),
+# wpml-name: 2491bc9c7d8731e1ae33124093bc7026
+msgid "Twitter"
+msgstr "Twitter"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: 49c51384d0881b674162396676efb15d
+msgid "Enter an e-mail address."
+msgstr "Geben Sie eine Emailanschrift ein"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: ed98517213e319076842bf9d7842be81
+msgid "Gravatar E-mail Address"
+msgstr "Gravatar E-mail Adresse"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: 156ebf94db9c36efb7562a37b3d6073d
+msgid "Enter the authors's name here"
+msgstr "Geben Sie hier den Namen des Autors ein"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: 6f79e98c388e99a84ac7cfdf4f795db8
+msgid "The Author's Social Links"
+msgstr "Die Profil-Links des Autors"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: 0520fad046814ba87635dcbf498be395
+msgid "Authorship draft updated. %sPreview authorship%s"
+msgstr "Autoreneintragsentwurf gespeichert. %sAutoreneintrag anschauen%s"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: 7e0e3e108152598e574a49024b0550fa
+msgid "Authorship scheduled for: %1$s. %2$sPreview authorship%3$s"
+msgstr "Autoreneintrag vorgesehen für Datum: %1$s. %2$sAutoreneintrag anschauen%3$s"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: ade0c9dce8323f232a9455f5db27151a
+msgid "Authorship submitted. %sPreview authorship%s"
+msgstr "Autoreneintrag gespeichert. %sAutoreneintrag anschauen%s"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: 50a73878c3207d3f9c04a84852c17209
+msgid "Authorship published. %sView authorship%s"
+msgstr "Autoreneintrag publiziert. %sAutoreneintrag anschauen%s"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: 9142fc61c0b91deb1034ffa93198881b
+msgid "Authorship restored to revision from %s"
+msgstr "Autoreneintrag zurückgesetzt auf gespeicherte Version %s"
+
+# 'name' => __( 'E-mail Address', 'tessa-authorship' ),
+# 'description' => __( 'Enter an e-mail address.', 'tessa-authorship' ),
+# 'title' => 'Send Email', //do not translate, will be __() on output
+# wpml-name: 70e5e189e1fc5dbea1295cdbf5c41599
+msgid "Authorship updated."
+msgstr "Autoreneintrag aktualisiert."
+
+# 2 => __( 'Custom field updated.', 'tessa-authorship' ),
+# 3 => __( 'Custom field deleted.', 'tessa-authorship' ),
+# 4 => __( "$tas_single updated.", "tessa-authorship" ),
+# wpml-name: 37725a1c8a05e443b8088a3dcd29ae96
+msgid "Custom field deleted."
+msgstr "Personalisiertes Feld gelöscht."
+
+# 1 => sprintf( __( "%s updated. %sView %s", "tessa-authorship" ), $tas_single, '<a href="' . esc_url( get_permalink( $post_ID ) ) . '">', '</a>' ),
+# 2 => __( 'Custom field updated.', 'tessa-authorship' ),
+# 3 => __( 'Custom field deleted.', 'tessa-authorship' ),
+# wpml-name: 039675c3e3a29a035723dac4a2e40761
+msgid "Custom field updated."
+msgstr "Personalisiertes Feld aktualisiert."
+
+# 1 => sprintf( __( "%s updated. %sView %s", "tessa-authorship" ), $tas_single, '<a href="' . esc_url( get_permalink( $post_ID ) ) . '">', '</a>' ),
+# 2 => __( 'Custom field updated.', 'tessa-authorship' ),
+# 3 => __( 'Custom field deleted.', 'tessa-authorship' ),
+# wpml-name: 2be1c8931b578ef4b9673ef93aec0a61
+msgid "Authorship updated. %sView authorship%s"
+msgstr "Authoreintrag aktualisiert. %sAutoreintrag betrachten%s"
+
+# public function register_custom_column_headings ( $defaults ) {
+# $new_columns = array( 'image' => __( 'Image', 'tessa-authorship' ) );
+#
+# wpml-name: be53a0541a6d36f6ecb879fa2c584b08
+msgid "Image"
+msgstr "Bild"
+
+# 'not_found' =>  sprintf( __( 'No %s Found', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'not_found_in_trash' => sprintf( __( 'No %s Found In Trash', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'parent_item_colon' => '',
+# wpml-name: 49ff143b0dfc3667721fa5dd87a10881
+msgid "No %s Found In Trash"
+msgstr "%s im Papierkorb nicht gefunden"
+
+# 'search_items' => sprintf( __( 'Search %a', 'tessa-authorship' ), __( $tas_title, 'tessa-authorship' ) ),
+# 'not_found' =>  sprintf( __( 'No %s Found', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'not_found_in_trash' => sprintf( __( 'No %s Found In Trash', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# wpml-name: 88593ba9cf0f7737f4e0dc538bba91d0
+msgid "No %s Found"
+msgstr "%s nicht gefunden"
+
+# 'view_item' => sprintf( __( 'View %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'search_items' => sprintf( __( 'Search %a', 'tessa-authorship' ), __( $tas_title, 'tessa-authorship' ) ),
+# 'not_found' =>  sprintf( __( 'No %s Found', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# wpml-name: 93265405188555a7ad73328eb6623b4a
+msgid "Search %a"
+msgstr "%a suchen"
+
+# 'all_items' => sprintf( __( 'All %s', 'tessa-authorship' ), __( $tas_title, 'tessa-authorship' ) ),
+# 'view_item' => sprintf( __( 'View %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'search_items' => sprintf( __( 'Search %a', 'tessa-authorship' ), __( $tas_title, 'tessa-authorship' ) ),
+# wpml-name: 4070217917db2a77aa6643b2ce47ceed
+msgid "View %s"
+msgstr "%s ansehen"
+
+# 'edit_item' => sprintf( __( 'Edit %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'new_item' => sprintf( __( 'New %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'all_items' => sprintf( __( 'All %s', 'tessa-authorship' ), __( $tas_title, 'tessa-authorship' ) ),
+# wpml-name: 460c3ad22193ba9081056eb1dc9af116
+msgid "New %s"
+msgstr "Neuer %s"
+
+# 'edit_item' => sprintf( __( 'Edit %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'new_item' => sprintf( __( 'New %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'all_items' => sprintf( __( 'All %s', 'tessa-authorship' ), __( $tas_title, 'tessa-authorship' ) ),
+# wpml-name: d37ffc3e44beb6e6b314c5ae09b52bd4
+msgid "Authorship"
+msgstr "Authorship"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'post_type' ); ?>"><?php _e( 'Specific Post Types (optional):', 'tessa-authorship' ); ?></label>
+# <input type="text" name="<?php echo $this->get_field_name( 'post_type' ); ?>"  value="<?php echo $instance['post_type']; ?>" class="widefat" id="<?php echo $this->get_field_id( 'post_type' ); ?>" />
+# wpml-name: 254d35a1502bec6383cbfc2f8020dd43
+msgid "Specific Post Types (optional):"
+msgstr "Ausgewählte Dokumenttypen (optional):"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'post_type' ); ?>"><?php _e( 'Specific Post Types (optional):', 'tessa-authorship' ); ?></label>
+# <input type="text" name="<?php echo $this->get_field_name( 'post_type' ); ?>"  value="<?php echo $instance['post_type']; ?>" class="widefat" id="<?php echo $this->get_field_id( 'post_type' ); ?>" />
+# wpml-name: d79032b23cd9d24fcc904cd544dd6bd5
+msgid "Display a specific authorship, rather than a list. You may specify more than one id separated by comma, e.g. 22,26,201"
+msgstr "Zeigen Sie  einen bestimmten Autoreneintrag und nicht eine Liste. Sie können mehr als einen Eintrag vorbestimmen. Beispiel mit Komma als Trennzeichen: 22,26,201"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'post_type' ); ?>"><?php _e( 'Specific Post Types (optional):', 'tessa-authorship' ); ?></label>
+# <input type="text" name="<?php echo $this->get_field_name( 'post_type' ); ?>"  value="<?php echo $instance['post_type']; ?>" class="widefat" id="<?php echo $this->get_field_id( 'post_type' ); ?>" />
+# wpml-name: 4c8e9665b51e5e05bf9cbd61c3c927b5
+msgid "Specific ID (optional):"
+msgstr "Bestimmte ID (optional):"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'tags' ); ?>"><?php _e( 'Tags:', 'tessa-authorship' ); ?></label>
+# <!-- assure that the thing don't gets endless since 0.2.0 -->
+# wpml-name: 32b502f33a535f75dcbf63f6753c631e
+msgid "Tags:"
+msgstr "Schlagwörter:"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'category' ); ?>"><?php _e( 'Categories:', 'tessa-authorship' ); ?></label>
+# <!-- assure that the thing don't gets endless since 0.2.0 -->
+# wpml-name: 8c38776925f7cf41c090646a43157024
+msgid "Categories:"
+msgstr "Kategorien:"
+
+# <input id="<?php echo $this->get_field_id( 'display_excerpt' ); ?>" name="<?php echo $this->get_field_name( 'display_excerpt' ); ?>" type="checkbox"<?php checked( $instance['display_excerpt'], 1 ); ?> />
+# <label for="<?php echo $this->get_field_id( 'display_excerpt' ); ?>"><?php _e( 'Display Excerpt', 'tessa-authorship' ); ?></label>
+# </p>
+# wpml-name: 28b6577211cb67661456082b4c0c2f72
+msgid "Display Excerpt"
+msgstr "Kurzfassung anzeigen"
+
+# <input id="<?php echo $this->get_field_id( 'display_content' ); ?>" name="<?php echo $this->get_field_name( 'display_content' ); ?>" type="checkbox"<?php checked( $instance['display_content'], 1 ); ?> />
+# <label for="<?php echo $this->get_field_id( 'display_content' ); ?>"><?php _e( 'Display Content', 'tessa-authorship' ); ?></label>
+# </p>
+# wpml-name: 7ec9792b76dc56f70b0eca6e82974953
+msgid "Display Content"
+msgstr "Inhalt anzeigen"
+
+# <input id="<?php echo $this->get_field_id( 'display_url' ); ?>" name="<?php echo $this->get_field_name( 'display_url' ); ?>" type="checkbox"<?php checked( $instance['display_url'], 1 ); ?> />
+# <label for="<?php echo $this->get_field_id( 'display_url' ); ?>"><?php _e( 'Use Permalink', 'tessa-authorship' ); ?></label>
+# </p>
+# wpml-name: 80677062cb70ddddbc8c22e23b24f99c
+msgid "Use Permalink"
+msgstr "Link setzen"
+
+# <input id="<?php echo $this->get_field_id( 'display_social' ); ?>" name="<?php echo $this->get_field_name( 'display_social' ); ?>" type="checkbox"<?php checked( $instance['display_social'], 1 ); ?> />
+# <label for="<?php echo $this->get_field_id( 'display_social' ); ?>"><?php _e( 'Display Social Links', 'tessa-authorship' ); ?></label>
+# </p>
+# wpml-name: de897f5ccb8662a3881dc94286e1382b
+msgid "Display Social Links"
+msgstr "Profil-Links zeigen"
+
+# <input id="<?php echo $this->get_field_id( 'display_avatar' ); ?>" name="<?php echo $this->get_field_name( 'display_avatar' ); ?>" type="checkbox"<?php checked( $instance['display_avatar'], 1 ); ?> />
+# <label for="<?php echo $this->get_field_id( 'display_avatar' ); ?>"><?php _e( 'Display Avatar', 'tessa-authorship' ); ?></label>
+# </p>
+# wpml-name: fc192cb4d94f6c6bea6aa40dab24eb30
+msgid "Display Avatar"
+msgstr "Avatarbild anzeigen"
+
+# <input id="<?php echo $this->get_field_id( 'display_author' ); ?>" name="<?php echo $this->get_field_name( 'display_author' ); ?>" type="checkbox"<?php checked( $instance['display_author'], 1 ); ?> />
+# <label for="<?php echo $this->get_field_id( 'display_author' ); ?>"><?php _e( 'Display Author', 'tessa-authorship' ); ?></label>
+# </p>
+# wpml-name: f19b593eb93f99eb3b2a338778a0013a
+msgid "Display Author"
+msgstr "Autor anzeigen"
+
+# <input id="<?php echo $this->get_field_id( 'strict' ); ?>" name="<?php echo $this->get_field_name( 'strict' ); ?>" type="checkbox"<?php checked( $instance['strict'], 1 ); ?> />
+# <label for="<?php echo $this->get_field_id( 'strict' ); ?>"><?php _e( 'Only configured relations', 'tessa-authorship' ); ?></label>
+# </p>
+# wpml-name: 620b455d4b4ff8bfda6354c3c2084dca
+msgid "Only configured relations"
+msgstr "Nur bereits festgelegte Verknüpfungen"
+
+# <input id="<?php echo $this->get_field_id( 'authorship' ); ?>" name="<?php echo $this->get_field_name( 'authorship' ); ?>" type="checkbox"<?php checked( $instance['authorship'], 1 ); ?> />
+# <label for="<?php echo $this->get_field_id( 'authorship' ); ?>"><?php _e( 'Display Authorships (Off: Displays author works)', 'tessa-authorship' ); ?></label>
+# </p>
+# wpml-name: 1a38c9e4725a81b468235f01ccb92091
+msgid "Display Authorships (Off: Displays author works)"
+msgstr "Autoreneinträge zeigen (Desaktiviert: Inhalte, Beiträge des Autors zeigen)"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'order' ); ?>"><?php _e( 'Order Direction:', 'tessa-authorship' ); ?></label>
+# <select name="<?php echo $this->get_field_name( 'order' ); ?>" class="widefat" id="<?php echo $this->get_field_id( 'order' ); ?>">
+# wpml-name: 219ebf4c93ec486e23ea15a2ace53584
+msgid "Order Direction:"
+msgstr "Ordnungsansicht:"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'orderby' ); ?>"><?php _e( 'Order By:', 'tessa-authorship' ); ?></label>
+# <select name="<?php echo $this->get_field_name( 'orderby' ); ?>" class="widefat" id="<?php echo $this->get_field_id( 'orderby' ); ?>">
+# wpml-name: 2a0b9c7903dd4ab360877f21dd192b21
+msgid "Order By:"
+msgstr "Ordnen nach:"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'size' ); ?>"><?php _e( 'Image Size (in pixels):', 'tessa-authorship' ); ?></label>
+# <input type="text" name="<?php echo $this->get_field_name( 'size' ); ?>"  value="<?php echo $instance['size']; ?>" class="widefat" id="<?php echo $this->get_field_id( 'size' ); ?>" />
+# wpml-name: 3c720db31cc96d288abd19ef412b9a32
+msgid "Image Size (in pixels):"
+msgstr "Bildgrösse (in Pixeln):"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'limit' ); ?>"><?php _e( 'Limit:', 'tessa-authorship' ); ?></label>
+# <input type="text" name="<?php echo $this->get_field_name( 'limit' ); ?>"  value="<?php echo $instance['limit']; ?>" class="widefat" id="<?php echo $this->get_field_id( 'limit' ); ?>" />
+# wpml-name: 9917a4b33447483e160c655e7273d980
+msgid "Limit:"
+msgstr "Anzahl:"
+
+# <p>
+# <label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title (optional):', 'tessa-authorship' ); ?></label>
+# <input type="text" name="<?php echo $this->get_field_name( 'title' ); ?>"  value="<?php echo $instance['title']; ?>" class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" />
+# wpml-name: eb54ab8c3f3cefcafad5a67eb6458ae3
+msgid "Title (optional):"
+msgstr "Titel (optional):"
+
+# 'ASC' => __( 'Ascending', 'tessa-authorship' ),
+# 'DESC' => __( 'Descending', 'tessa-authorship' )
+# );
+# wpml-name: e3cf5ac19407b1a62c6fccaff675a53b
+msgid "Descending"
+msgstr "Absteigend"
+
+# return array(
+# 'ASC' => __( 'Ascending', 'tessa-authorship' ),
+# 'DESC' => __( 'Descending', 'tessa-authorship' )
+# wpml-name: cf3fb1ff52ea1eed3347ac5401ee7f0c
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+# 'menu_order' => __( 'Specified Order Setting', 'tessa-authorship' ),
+# 'rand' => __( 'Random Order', 'tessa-authorship' )
+# );
+# wpml-name: 2824995f1e8c27b2ce9a952932a47abf
+msgid "Random Order"
+msgstr "Zufallsanordnung"
+
+# 'date' => __( 'Date Added', 'tessa-authorship' ),
+# 'menu_order' => __( 'Specified Order Setting', 'tessa-authorship' ),
+# 'rand' => __( 'Random Order', 'tessa-authorship' )
+# wpml-name: 54e6d1a10daa7051365742c8bf847c2a
+msgid "Specified Order Setting"
+msgstr "Festgelegte Anordnung"
+
+# 'title' => __( 'Title', 'tessa-authorship' ),
+# 'date' => __( 'Date Added', 'tessa-authorship' ),
+# 'menu_order' => __( 'Specified Order Setting', 'tessa-authorship' ),
+# wpml-name: 93a524d9a34a84b2c8b9f0575c08b6c8
+msgid "Date Added"
+msgstr "Hinzugefügt am"
+
+# 'none' => __( 'No Order', 'tessa-authorship' ),
+# 'ID' => __( 'Entry ID', 'tessa-authorship' ),
+# 'title' => __( 'Title', 'tessa-authorship' ),
+# wpml-name: 9390efb0ab450ddc9f275aa2eba38183
+msgid "Entry ID"
+msgstr "Eintrags ID"
+
+# return array(
+# 'none' => __( 'No Order', 'tessa-authorship' ),
+# 'ID' => __( 'Entry ID', 'tessa-authorship' ),
+# wpml-name: 8bccfbfe21908f921c78c2a1ecd732a5
+msgid "No Order"
+msgstr "Ohne Ordnung"
+
+# $post_types = implode(',',  $tasrpas_options['post_types']);
+# echo __( 'Display works (posts) for specific post types only. Not used when displaying authorships. Configured and hence supported post-types include:', 'tessa-authorship' ) . " $post_types"; ?></small></p>
+#
+# wpml-name: ba2024dc4b0ec32816916a3df13fdce6
+msgid "Display works (posts) for specific post types only. Not used when displaying authorships. Configured and hence supported post-types include:"
+msgstr "Anzeige wird nur für bestimmte Dokumenttypen (Inhalte) unterstützt. Auf Autorenseiten nicht unterstützt. Von Ihnen festgelegte und von daher unterstützte Dokumenttypen  beinhalten:"
+
+# $this->tessa_widget_idbase = 'tessa_authorship';
+# $this->tessa_widget_title = __( 'Tessa Authorship', 'tessa-authorship' );
+#
+# wpml-name: 4a87b3b96e71e0a30d13736c6584f9a9
+msgid "Tessa Authorship"
+msgstr "Tessa Authorship"
+
+# $this->tessa_widget_cssclass = 'widget_tessa_authorship';
+# $this->tessa_widget_description = __( 'Recent authorship on your site.', 'tessa-authorship' );
+# $this->tessa_widget_idbase = 'tessa_authorship';
+# wpml-name: 7ee1b33780aed870eb6df0e022cee82d
+msgid "Recent authorship on your site."
+msgstr "Neue Autoren auf Ihrer Seite."
+
+# 'name'                => sprintf( _x( '%s', 'taxonomy general name', 'tessa-authorship' ), $this->plural ),
+# 'singular_name'       => sprintf( _x( '%s', 'taxonomy singular name', 'tessa-authorship' ), $this->singular ),
+# 'search_items'        => sprintf( __( 'Search %s', 'tessa-authorship' ), $this->plural ),
+# wpml-name: 1c481aa99d081c32182011a758f73d33
+msgid "%s"
+msgstr "%s"
+
+# 'add_new_item'        => sprintf( __( 'Add New %s', 'tessa-authorship' ), $this->singular ),
+# 'new_item_name'       => sprintf( __( 'New %s Name', 'tessa-authorship' ), $this->singular ),
+# 'menu_name'           => sprintf( __( '%s', 'tessa-authorship' ), $this->plural )
+# wpml-name: 4a91ce45d64ba0e1e20fb4d74470f956
+msgid "New %s Name"
+msgstr "Neuen Namen für %s festlegen"
+
+# 'add_new' => _x( 'Add New', $tas_single, 'tessa-authorship' ),
+# 'add_new_item' => sprintf( __( 'Add New %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'edit_item' => sprintf( __( 'Edit %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# wpml-name: 12acc7f86f045429f568ed130800c2df
+msgid "Add New %s"
+msgstr "Neuen %s anlegen"
+
+# 'edit_item'           => sprintf( __( 'Edit %s', 'tessa-authorship' ), $this->singular ),
+# 'update_item'         => sprintf( __( 'Update %s', 'tessa-authorship' ), $this->singular ),
+# 'add_new_item'        => sprintf( __( 'Add New %s', 'tessa-authorship' ), $this->singular ),
+# wpml-name: 2ada3e768c0f971c10f36111fb1cc421
+msgid "Update %s"
+msgstr "%s aktualisieren"
+
+# 'add_new_item' => sprintf( __( 'Add New %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'edit_item' => sprintf( __( 'Edit %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'new_item' => sprintf( __( 'New %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# wpml-name: 7dfa8bf72c98a7c1927d689cdbc49ce1
+msgid "Edit %s"
+msgstr "%s editieren"
+
+# 'parent_item'         => sprintf( __( 'Parent %s', 'tessa-authorship' ), $this->singular ),
+# 'parent_item_colon'   => sprintf( __( 'Parent %s:', 'tessa-authorship' ), $this->singular ),
+# 'edit_item'           => sprintf( __( 'Edit %s', 'tessa-authorship' ), $this->singular ),
+# wpml-name: 514ef5adfed5b9f69f4fdc1179ea8e38
+msgid "Parent %s:"
+msgstr "Abstammung für %s:"
+
+# 'all_items'           => sprintf( __( 'All %s', 'tessa-authorship' ), $this->plural ),
+# 'parent_item'         => sprintf( __( 'Parent %s', 'tessa-authorship' ), $this->singular ),
+# 'parent_item_colon'   => sprintf( __( 'Parent %s:', 'tessa-authorship' ), $this->singular ),
+# wpml-name: 03d2a3c16fe093f6883a4b0059a581b9
+msgid "Parent %s"
+msgstr "Abstammung für %s"
+
+# 'new_item' => sprintf( __( 'New %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# 'all_items' => sprintf( __( 'All %s', 'tessa-authorship' ), __( $tas_title, 'tessa-authorship' ) ),
+# 'view_item' => sprintf( __( 'View %s', 'tessa-authorship' ), __( $tas_single, 'tessa-authorship' ) ),
+# wpml-name: 84d1595b1584d106bf0310b6905e7c3c
+msgid "All %s"
+msgstr "Alle %s"
+
+# 'singular_name'       => sprintf( _x( '%s', 'taxonomy singular name', 'tessa-authorship' ), $this->singular ),
+# 'search_items'        => sprintf( __( 'Search %s', 'tessa-authorship' ), $this->plural ),
+# 'all_items'           => sprintf( __( 'All %s', 'tessa-authorship' ), $this->plural ),
+# wpml-name: 9c261c62a7a3a3b68ebc14f22045d762
+msgid "Search %s"
+msgstr "%s suchen"
+
+# if ( '' == $this->singular ) $this->singular = __( 'Category', 'tessa-authorship' );
+# if ( '' == $this->plural ) $this->plural = __( 'Categories', 'tessa-authorship' );
+#
+# wpml-name: af1b98adf7f686b84cd0b443e022b7a0
+msgid "Categories"
+msgstr "Kategorien"
+
+#
+# if ( '' == $this->singular ) $this->singular = __( 'Category', 'tessa-authorship' );
+# if ( '' == $this->plural ) $this->plural = __( 'Categories', 'tessa-authorship' );
+# wpml-name: 3adbdb3ac060038aa0e6e6c138ef9873
+msgid "Category"
+msgstr "Kategorie"
+
+# <li><a href="http://takebarcelona.com/woocommerce-poor-guys-swiss-knife/">WooCommerce Poor Guys Swiss Knife (WCPGSK) </a> - <em><?php _e("A swiss knife for WooCommerce to powerload standard WooCommerce installations."); ?></em></li>
+# <li><a href="http://takebarcelona.com/tessa-theme">Tessa</a> - <em><?php _e("A gallery, exposition and portfolio theme with built-in support for WooCommerce", "tessa-authorship"); ?></em></li>
+# </ul>
+# wpml-name: b2b14f7fb0c8e7394737e07edd8a4fbc
+msgid "A gallery, exposition and portfolio theme with built-in support for WooCommerce"
+msgstr "Eine Vorlage für Gallerien, Ausstellungen und Portfolios mit Unterstützung für WooCommerce"
+
+# <div class="postbox" style="display: block;width:670px;float:left;margin:10px;clear:left;">
+# <h3 class="hndle" style="padding:5px;"><span><?php _e("Check out these themes and plugins too:", "tessa-authorship"); ?></span></h3>
+# <div class="inside">
+# wpml-name: 1faa055dd39d954a1852e992057183ef
+msgid "Check out these themes and plugins too:"
+msgstr "Schauen Sie sich auch diese Plugins und Vorlagen an:"
+
+# <a href="http://wordpress.org/support/view/plugin-reviews/<?php echo TASRPAS_SLUG; ?>" class="button-secondary button-large"><?php _e("Write a review about this plugin", "tessa-authorship"); ?></a>
+# <a href="http://profiles.wordpress.org/ulih/"  class="button-secondary button-large" title="on WordPress.org"><?php _e("Wordpress Profile of the author", "tessa-authorship"); ?></a>
+# </div>
+# wpml-name: 1c086c82b33a3fc474b8f0588c817fdc
+msgid "Wordpress Profile of the author"
+msgstr "Wordpress-Profil des Autors"
+
+# <a href="http://wordpress.org/extend/plugins/<?php echo TASRPAS_SLUG; ?>" class="button-secondary" button-large><?php _e("Rate this plugin", "tessa-authorship"); ?></a>
+# <a href="http://wordpress.org/support/view/plugin-reviews/<?php echo TASRPAS_SLUG; ?>" class="button-secondary button-large"><?php _e("Write a review about this plugin", "tessa-authorship"); ?></a>
+# <a href="http://profiles.wordpress.org/ulih/"  class="button-secondary button-large" title="on WordPress.org"><?php _e("Wordpress Profile of the author", "tessa-authorship"); ?></a>
+# wpml-name: b81387ffd1a68d56f19715ea83c79b2c
+msgid "Write a review about this plugin"
+msgstr "Eine Rezension über das Plugin schreiben"
+
+# <a href="http://wordpress.org/support/plugin/<?php echo TASRPAS_SLUG; ?>" class="button-secondary button-large"><?php _e("Support Forum", "tessa-authorship"); ?></a>
+# <a href="http://wordpress.org/extend/plugins/<?php echo TASRPAS_SLUG; ?>" class="button-secondary" button-large><?php _e("Rate this plugin", "tessa-authorship"); ?></a>
+# <a href="http://wordpress.org/support/view/plugin-reviews/<?php echo TASRPAS_SLUG; ?>" class="button-secondary button-large"><?php _e("Write a review about this plugin", "tessa-authorship"); ?></a>
+# wpml-name: 1364ed3cb7fd864f5d0ec5507c009c99
+msgid "Rate this plugin"
+msgstr "Plugin bewerten"
+
+# <div class="inside">
+# <a href="http://wordpress.org/support/plugin/<?php echo TASRPAS_SLUG; ?>" class="button-secondary button-large"><?php _e("Support Forum", "tessa-authorship"); ?></a>
+# <a href="http://wordpress.org/extend/plugins/<?php echo TASRPAS_SLUG; ?>" class="button-secondary" button-large><?php _e("Rate this plugin", "tessa-authorship"); ?></a>
+# wpml-name: 3d037398a9418488f658e6f521b609e5
+msgid "Support Forum"
+msgstr "Support Forum"
+
+# <div class="postbox" style="display: block;width:670px;float:left;margin:10px;">
+# <h3 class="hndle" style="padding:5px;"><span><?php _e("Useful links:", "tessa-authorship"); ?></span></h3>
+# <div class="inside">
+# wpml-name: 075ffef380dd1f37562192a9a3d44533
+msgid "Useful links:"
+msgstr "Nützliche Links:"
+
+# <a href="javascript:void(0);" id="tasrpas_delete_related_author" class="button-secondary hide-if-no-js"><?php _e( 'Clear all', 'tessa-authorship' ); ?></a>
+# <span class="hide-if-js"><?php _e( 'Add author IDs from authors you want to relate, comma separated.', 'tessa-authorship' ); ?></span>
+# </div>
+# wpml-name: ca011f9bd2b327c0f3fc1a329bbc76c7
+msgid "Add author IDs from authors you want to relate, comma separated."
+msgstr "Geben Sie die IDs für die Autoren an, die Sie verknüpfen wollen, trennen Sie bitte mit Komma."
+
+# <a href="javascript:void(0);" id="saprsat_open_button" class="button-secondary hide-if-no-js"><?php _e( 'Add a related content', 'tessa-authorship' ); ?></a>
+# <a href="javascript:void(0);" id="saprsat_delete_related_author" class="button-secondary hide-if-no-js"><?php _e( 'Clear all', 'tessa-authorship' ); ?></a>
+# <span class="hide-if-js"><?php _e( 'Add content IDs you want to relate, comma separated.', 'tessa-authorship' ); ?></span>
+# wpml-name: 81aa2078d1eceede831b2976dbf32e62
+msgid "Clear all"
+msgstr "Alles entfernen"
+
+# <div>
+# <a href="javascript:void(0);" id="tasrpas_open_button" class="button-secondary hide-if-no-js"><?php _e( 'Add a related author', 'tessa-authorship' ); ?></a>
+# <a href="javascript:void(0);" id="tasrpas_delete_related_author" class="button-secondary hide-if-no-js"><?php _e( 'Clear all', 'tessa-authorship' ); ?></a>
+# wpml-name: fd3d7e2d5bbcee1ff6e8a789822d9107
+msgid "Add a related author"
+msgstr "Einen Autor hinzufügen"
+
+# <div id="authorship" class="find-box" style="display:none;background-color:#ccc;;padding:10px 10px 10px 10px;border:1px solid #aaa;border-radius:5px">
+# <div id="authorship-head" class="authorship-box-head"><?php _e( 'Find related authors', 'tessa-authorship' ); ?></div>
+# <div class="authorship-box-inside">
+# wpml-name: 5123491eeda12de72d2d526fe74ac03b
+msgid "Find related authors"
+msgstr "Verknüpfte Autoren suchen"
+
+#
+# add_settings_section( 'tasrpas_settings_page', __( 'About', 'tessa-authorship' ), '__return_false', 'tasrpas_settings_about' );
+# add_settings_field( 'tasrpas_field_about', '', array($this, 'tasrpas_about'), 'tasrpas_settings_about', 'tasrpas_settings_page' );
+# wpml-name: 8f7f4c1ce7a4f933663d10543562b096
+msgid "About"
+msgstr "Über"
+
+#
+# add_settings_section( 'tasrpas_settings_page', __( 'About', 'tessa-authorship' ), '__return_false', 'tasrpas_settings_about' );
+# add_settings_field( 'tasrpas_field_about', '', array($this, 'tasrpas_about'), 'tasrpas_settings_about', 'tasrpas_settings_page' );
+# wpml-name: 97d5115703f639fe4d6dbec5abe2ecdb
+msgid "Enable authorship for post-types"
+msgstr "Authorship für Dokumententyp freigeben "
+
+#
+# add_settings_section( 'tasrpas_settings_page', __( 'About', 'tessa-authorship' ), '__return_false', 'tasrpas_settings_about' );
+# add_settings_field( 'tasrpas_field_about', '', array($this, 'tasrpas_about'), 'tasrpas_settings_about', 'tasrpas_settings_page' );
+# wpml-name: 0db377921f4ce762c62526131097968f
+msgid "General"
+msgstr "Allgemein"
+
+# {
+# $page = add_submenu_page( 'edit.php?post_type=authorship', __( 'Authorship Settings', 'tessa-authorship' ), __( 'Authorship Settings', 'tessa-authorship' ), 'manage_options', 'tessa-authorship', array( $this, 'tasrpas_settings_page' ) );
+# add_action( 'admin_print_styles-'. $page, array( &$this, 'admin_enqueue' ) );
+# wpml-name: 042a42eb17eca3bfb6bcca6f95b55863
+msgid "Authorship Settings"
+msgstr "Authorship Einstellungen"
+
+# foreach( $tasrpas_options['post_types'] as $apost_type ) :
+# add_meta_box( 'tessa-authorship', __('Related Authors', 'tessa-authorship'), array($this, 'tasrpas_box'), $apost_type, 'side' );
+# endforeach;
+# wpml-name: 6e8ae8cfe58a594831109f3b9e689078
+msgid "Related Authors"
+msgstr "Verknüpfte Autore"
+

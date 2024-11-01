@@ -1,0 +1,182 @@
+.social-links {
+	display: inline-block;
+	list-style: none;
+	margin: -12px 0 0;
+	vertical-align: top;
+	font: 300 13px/1.30769 Lato,sans-serif;
+}
+.social-links li {
+	display: block;
+	float: left;
+	margin: 8px 4px 0;
+	padding: 1px 0;
+	width: 32px;
+	height: 32px;
+}
+.social-links a {
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	width: 32px;
+	height: 32px;
+}
+.email-link  {
+	background-image:url('../images/social/email.png');
+}
+.facebook-link {
+	background-image:url('../images/social/facebook.png');
+}
+.twitter-link {
+	background-image:url('../images/social/twitter.png');
+}
+.google-link {
+	background-image:url('../images/social/googleplus.png');
+}
+.pinterest-link {
+	background-image:url('../images/social/googleplus.png');
+}
+.linkedin-link {
+	background-image:url('../images/social/linkedin.png');
+}
+.flickr-link {
+	background-image:url('../images/social/flickr.png');
+}
+.skype-link {
+	background-image:url('../images/social/skype.png');
+}
+.github-link {
+	background-image:url('../images/social/github.png');
+}
+.dribbble-link {
+	background-image:url('../images/social/dribble.png');
+}
+.digg-link {
+	background-image:url('../images/social/digg.png');
+}
+.technorati-link {
+	background-image:url('../images/social/technorati.png');
+}
+.wordpress-link {
+	background-image:url('../images/social/wordpress.png');
+}
+.yahoo-link {
+	background-image:url('../images/social/yahoo.png');
+}
+.myspace-link {
+	background-image:url('../images/social/myspace.png');
+}
+.vimeo-link {
+	background-image:url('../images/social/vimeo.png');
+}
+.youtube-link {
+	background-image:url('../images/social/youtube.png');
+}
+.tumblr-link {
+	background-image:url('../images/social/tumblr.png');
+}
+.feedle-link {
+	background-image:url('../images/social/feedle.png');
+}
+.blog-link {
+	background-image:url('../images/social/bloggger.png');
+}
+.web-url {
+	background-image:url('../images/social/website.png');
+}
+.soundcloud-link {
+	background-image:url('../images/social/soundcloud.png');
+}
+.icompositions-link {
+	background-image:url('../images/social/icompositions.png');
+}
+
+/* this is a valid genericons implementation in css */
+/*
+.social-links-list .email-link a:before {
+	content: "\f410";
+}
+.social-links-list .facebook-link a:before {
+	content: "\f203";
+}
+.social-links-list .twitter-link a:before {
+	content: "\f202";
+}
+.social-links-list .google-link a:before {
+	content: "\f206";
+}
+.social-links-list .pinterest-link a:before {
+	content: "\f210";
+}
+.social-links-list .linkedin-link a:before {
+	content: "\f208";
+}
+.social-links-list .flickr-link a:before {
+	content: "\f211";
+}
+.social-links-list .github-link a:before {
+	content: "\f200";
+}
+.social-links-list .dribbble-link a:before {
+	content: "\f201";
+}
+.social-links-list .vimeo-link a:before {
+	content: "\f212";
+}
+.social-links-list .youtube-link a:before {
+	content: "\f213";
+}
+.social-links-list .tumblr-link a:before {
+	content: "\f214";
+}
+.social-links-list .feedle-link a:before {
+	content: "\f413";
+}
+.social-links-list .blog-link a:before {
+	content: "\f411";
+}
+.social-links-list .web-url a:before {
+	content: "\f201";
+}
+.social-links-list .soundcloud-link a:before, .icompositions-link a:before {
+	content: "\f426";
+}
+*/
+
+#tessa_authorship_email_form {
+    width: 50%;
+    border: 1px solid rgb(153, 153, 153);
+    background-color: rgba(220, 220, 220, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 20000000;
+    left: 50%;
+    top: 50%;
+    transform: translate(10%, -50%);
+    display: block;
+}
+
+#tas_close_btn:before {
+	content: "\f406";
+}
+#tas_close_btn {
+	float: right;
+	border-radius: 50%;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.tas-message, .tas-message-input {
+	clear: both;
+	display:block;
+	width: 90%;
+	margin: 0 auto;
+}
+

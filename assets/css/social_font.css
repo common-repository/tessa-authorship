@@ -1,0 +1,118 @@
+.social-links {
+	display: inline-block;
+	list-style: none;
+	margin: -12px 0 0;
+	vertical-align: top;
+	font: 300 13px/1.30769 Lato,sans-serif;
+}
+.social-links li {
+	display: block;
+	float: left;
+	margin: 8px 4px 0;
+	padding: 1px 0;
+	width: 32px;
+	height: 32px;
+}
+.social-links a {
+	background-color: rgba(255, 255, 255, 0.15);
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	width: 32px;
+	height: 32px;
+}
+
+/* this is a valid genericons implementation in css */
+.email-link a:before {
+	content: "\f410";
+}
+.facebook-link a:before {
+	content: "\f203";
+}
+.twitter-link a:before {
+	content: "\f202";
+}
+.google-link a:before {
+	content: "\f206";
+}
+.pinterest-link a:before {
+	content: "\f210";
+}
+.linkedin-link a:before {
+	content: "\f208";
+}
+.flickr-link a:before {
+	content: "\f211";
+}
+.github-link a:before {
+	content: "\f200";
+}
+.dribbble-link a:before {
+	content: "\f201";
+}
+.vimeo-link a:before {
+	content: "\f212";
+}
+.youtube-link a:before {
+	content: "\f213";
+}
+.tumblr-link a:before {
+	content: "\f214";
+}
+.feedle-link a:before {
+	content: "\f413";
+}
+.blog-link a:before {
+	content: "\f411";
+}
+.web-url a:before {
+	content: "\f201";
+}
+.soundcloud-link a:before, .icompositions-link a:before {
+	content: "\f426";
+}
+
+#tessa_authorship_email_form {
+    width: 90%;
+    border: 1px solid rgb(153, 153, 153);
+    background-color: rgba(220, 220, 220, 0.9);
+    padding: 15px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 20000000;
+    top: 50%;
+	left: 5% !important;
+    display: block;
+}
+
+#tas_close_btn:before {
+	content: "\f406";
+	font: 2.6rem/1 Genericons;
+	font-weight: bold;
+	-webkit-transform: translateX(-13px);	
+	-ms-transform: translateX(-13px);	
+}
+#tas_close_btn {
+	float: right;
+	border-radius: 50%;
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	vertical-align: middle;
+}
+#tas_sourcename, #tas_sourceemail, #sourceemail, #sourcename {
+	display: inline-block;
+	min-width: 200px;
+	text-align:right;
+}
+.tas-message, .tas-message-input {
+	clear: both;
+	display:block;
+	width: 90%;
+	margin: 0 auto;
+}
+
